@@ -1,0 +1,51 @@
+/* ----------------- */
+/* ---RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+/* Основные стили*/
+
+a {
+	color: blue;
+}
+
+.history {
+	color: grey;
+}
+
+h2.h2 {
+	color: brown;
+}
+
+.first_p.h2 {
+	color: red;
+}
+
+.lenuar,
+.bars {
+	color: green;
+}
+
+.now p {
+	color: darkmagenta;
+}
+
+.otto_2 .text_p {
+	color: lightcoral;
+}
+
+.second_p * {
+	color: gold;
+}
+
+.bar > p {
+	color: silver;
+}
+
+.p_7 ~ p {
+	color: blue;
+}
+
+.text_p + p {
+	color: green;
+}
