@@ -1,0 +1,100 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+@font-face {
+	font-family: "BoomBoom";
+	src: url("../fonts/Boomboom.woff2") format("woff2"), url("../fonts/Boomboom.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+	text-indent: 30px;
+	color: darkgrey;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: lowercase;
+	color: black;
+}
+
+.header_p_1,
+.header_p_2 {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500;
+	text-align: justify;
+	color: black;
+}
+
+.first_p {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500;
+	text-decoration: underline;
+	text-align: center;
+	color: blue;
+}
+
+.title_2 {
+	font-family: "BoomBoom", serif;
+	font-size: 20px;
+	font-style: italic;
+	color: green;
+}
+
+.title_3 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
+
+.history_p_1 {
+	font-family: "BoomBoom", serif;
+	text-transform: capitalize;
+	text-decoration: overline;
+	text-align: right;
+	color: black;
+}
+
+.history_p_2 {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: justify;
+	line-height: 1.7;
+	letter-spacing: 2px;
+}
+
+.title_4 {
+	font-family: "BoomBoom", serif;
+	font-size: 30px;
+	text-align: center;
+	word-spacing: 5px;
+	color: gold;
+}
+
+.footer {
+	white-space: nowrap;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: lowercase;
+	color: yellowgreen;
+}
+
+.footer_list {
+	white-space: normal;
+}
+
+a {
+	text-decoration: underline;
+	color: blue;
+}
