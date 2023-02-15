@@ -1,0 +1,152 @@
+@import url("reset.css");
+
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-left: 15px;
+}
+
+.first__main-screen {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 300;
+	color: #E5E5E5;
+
+	width: 100%;
+	height: 600px;
+	background-image: url("../img/01.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 25px;
+	padding-top: 36px;
+	margin-bottom: 269px;
+}
+
+.date {
+	margin-bottom: 15px;
+}
+
+.title {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #F8F9FA;
+	margin-bottom: 15px;
+}
+
+.second__main-screen {
+	font-family: 'Inter', sans-serif;
+
+	width: 100%;
+	height: 560px;
+	background-image: url("../img/02.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sale {
+	padding-top: 145px;
+	margin-bottom: 13px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #3056D3;
+}
+
+.second-title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+
+.second-description {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #637381;
+	margin-bottom: 35px;
+}
+
+.button {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #FFFFFF;
+
+	display: inline-block;
+	background-color: #3056D3;
+	padding: 10px 30px;
+	border-radius: 30px;
+}
+
+.third__main-screen {
+	background-color: #FFDEE9;
+	background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+.third__container {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 15px;
+	color: #637381;
+}
+
+.third-title {
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #212B36;
+	padding-top: 100px;
+	margin-bottom: 45px;
+}
+
+.third__container ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 310px;
+	margin: 0 91px 60px 0;	
+}
+
+.third__container li {
+	margin-bottom: 18px;
+	padding-left: 30px;
+	min-height: 20px;
+}
+
+.dot li {
+	background-image: url(../img/icons/01.png);
+	background-repeat: no-repeat;
+	background-size: 8px;
+	background-position: 0 30%;
+}
+
+.check-blue li {
+	background: url(../img/icons/02.png) 0 50% no-repeat;
+}
+
+.check-green li {
+	background: url(../img/icons/03.png) 0 50% no-repeat;
+}
+
+.cross li {
+	background: url(../img/icons/04.png) 0 50% no-repeat;
+}
+
+.arrow li {
+	background: url(../img/icons/05.png) 0 50% no-repeat;
+}
+
+.star li {
+	background: url(../img/icons/06.png) 0 50% no-repeat;
+}
